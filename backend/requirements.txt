@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+pymongo
+langdetect
+python-dotenv
+pydantic
+email-validator
+python-multipart
+torch
+transformers
+scikit-learn==1.7.0
+joblib
+numpy
+python-jose
+passlib
+google-genai
+resend

@@ -1,0 +1,19 @@
+# ML pipeline dependencies
+# P15 fix: pinned versions for reproducibility
+
+# Core ML framework
+torch==2.3.1
+transformers==4.41.2
+tokenizers==0.19.1
+sentencepiece==0.2.0
+
+# Data & training
+datasets==2.20.0
+scikit-learn==1.7.0
+numpy==1.26.4
+pandas==2.2.2
+joblib==1.4.2
+
+# Utilities
+tqdm==4.66.4
+langdetect==1.0.9

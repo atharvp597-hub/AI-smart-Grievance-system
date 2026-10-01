@@ -1,0 +1,19 @@
+@import "tailwindcss";
+/* Force smooth scroll on all devices */
+html {
+  scroll-behavior: smooth !important;
+  scroll-padding-top: 70px;
+}
+
+/* Mobile/Inspect mode ke liye */
+@media (max-width: 768px) {
+  html {
+    scroll-padding-top: 60px;
+  }
+}
+
+/* Yeh important hai inspect mode ke liye */
+* {
+  scroll-margin-top: 70px;
+  scroll-behavior: smooth;
+}
